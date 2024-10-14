@@ -12,11 +12,16 @@ body {
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
 }
 
+hr {
+    color: rgb(252, 150, 23);
+    width: 20%
+}
+
 /* MOBILE FIRST   */
 .container {
     width: 100%;
     padding: 0 20px;
-    background-color: rgb(219, 218, 218);
+    background-color: rgb(240, 239, 239);
     /* DEBUG  */
     border: 1px solid black;
 }
@@ -43,20 +48,51 @@ body {
     display: none;
 }
 
-.left {
+.first-section {
+    padding: 20px 0;
+}
+
+.title {
     color: rgb(117, 26, 117)
 }
 
-h2 {
-    padding: 20px 0;
-    margin-left: 40px;
+/* .col-1 {} */
+
+.col-2 {
+    background-color: rgb(255, 255, 255);
 }
 
-ul {
+.first-list {
     list-style: none;
-    /* padding:0 */
+    padding: 0;
+    margin-top: 20px
 }
 
 li {
     margin: 10px 0;
+}
+
+/* SEZIONE SOCIAL  */
+.social-list span {
+    display: none;
+}
+
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(239, 237, 237);
+    border-radius: 50%;
+}
+
+
+/* BANNER  */
+.banner {
+    display: none;
+    padding: 20px 0;
+}
+
+/* PRESENTATION SECTION  */
+.presentation-title {
+    padding: 10px 0;
 }
