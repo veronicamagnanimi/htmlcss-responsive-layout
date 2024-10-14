@@ -19,7 +19,12 @@
     }
 
     .social-list li {
-        padding: 10px;
+        padding: 10px 15px;
+    }
+
+    .tiramisu-img {
+        width: 30%;
+        float: left;
     }
 
     
@@ -59,6 +64,11 @@
 
     .social-section span {
         display: inline-block;
+    }
+
+    .tiramisu-img {
+        float: left;
+        width: 30%;
     }
     
 }
