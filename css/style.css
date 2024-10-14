@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+/* MOBILE FIRST   */
+.container {
+    width: 100%;
+    padding: 0 20px;
+    background-color: rgb(219, 218, 218);
+    /* DEBUG  */
+    border: 1px solid black;
+}
+
+
+/* HEADER  */
+.header {
+    height: 80px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    font-family: 'Nerko One';
+    color: rgb(252, 150, 23);
+}
+
+/* MAIN  */
+/* prima sezione  */
+
+.titolo-nascosto {
+    display: none;
+}
+
+.left {
+    color: rgb(117, 26, 117)
+}
+
+h2 {
+    padding: 20px 0;
+    margin-left: 40px;
+}
+
+ul {
+    list-style: none;
+    /* padding:0 */
+}
+
+li {
+    margin: 10px 0;
+}
