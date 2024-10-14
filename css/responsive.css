@@ -18,6 +18,10 @@
         width: calc(100% /3);
     }
 
+    .social-list li {
+        padding: 10px;
+    }
+
     
 }
 
